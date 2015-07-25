@@ -91,3 +91,65 @@ fn bench_p3_stereo_16bit(bencher: &mut Bencher) {
 fn bench_p4_stereo_16bit(bencher: &mut Bencher) {
     bench_decode(Path::new("testsamples/p4.flac"), bencher);
 }
+
+// Bench the album "Drones" by Muse (2015).
+
+#[bench]
+fn bench_drones_01(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/01 - Dead Inside.flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_02(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/02 - [Drill Sergeant].flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_03(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/03 - Psycho.flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_04(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/04 - Mercy.flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_05(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/05 - Reapers.flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_06(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/06 - The Handler.flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_07(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/07 - [JFK].flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_08(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/08 - Defector.flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_09(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/09 - Revolt.flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_10(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/10 - Aftermath.flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_11(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/11 - The Globalist.flac"), bencher);
+}
+
+#[bench]
+fn bench_drones_12(bencher: &mut Bencher) {
+    bench_decode(Path::new("testsamples/Drones/12 - Drones.flac"), bencher);
+}

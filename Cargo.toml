@@ -14,3 +14,6 @@ repository = "https://github.com/ruud-v-a/claxon"
 
 # TODO: turn into dev-dependency (and "decode" binary into example)
 hound = "1.0.0"
+
+[features]
+bench-drones = []

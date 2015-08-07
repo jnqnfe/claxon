@@ -6,6 +6,7 @@
 /testsamples/*.flac
 /testsamples/*.ana
 /testsamples/*.wav
+/testsamples/Drones
 
 # Editor files
 *.swp

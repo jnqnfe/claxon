@@ -15,6 +15,7 @@
 
 extern crate claxon;
 extern crate hound;
+extern crate afl_coverage;
 
 fn main() {
     use std::env;

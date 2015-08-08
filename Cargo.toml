@@ -15,5 +15,13 @@ repository = "https://github.com/ruud-v-a/claxon"
 # TODO: turn into dev-dependency (and "decode" binary into example)
 hound = "1.0.0"
 
+[dependencies.afl-coverage-plugin]
+git = "https://github.com/ruud-v-a/afl.rs"
+branch = "nightly"
+
+[dependencies.afl-coverage]
+git = "https://github.com/ruud-v-a/afl.rs"
+branch = "nightly"
+
 [features]
 bench-drones = []

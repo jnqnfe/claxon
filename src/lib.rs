@@ -21,6 +21,9 @@
 #![allow(dead_code)] // TODO: Remove for v0.2
 #![feature(iter_arith, zero_one)]
 
+#![feature(plugin)]
+#![plugin(afl_coverage_plugin)]
+
 use std::io;
 use error::fmt_err;
 use frame::{FrameReader};
